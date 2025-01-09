@@ -4,7 +4,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow, FaMapLocation } from "react-icons/fa6";
+import { FaLocationArrow } from "react-icons/fa6";
 
 type Props = {};
 
@@ -36,7 +36,7 @@ const Hero = (props: Props) => {
 
           <TextGenerateEffect
             className="text-[40px] text-center md:text-5xl lg:text-6xl"
-            words="With no power comes no responsibilities"
+            words="Living, Learning, Leveling Up One Day At a Time"
           />
 
           <p className="mb-4 text-center text-sm md:text-lg lg:text-2xl md:tracking-wider">
