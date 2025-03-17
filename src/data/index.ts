@@ -71,9 +71,9 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/assets/p1.svg",
+    title: "Foundasi - IT Solution",
+    des: "Foundasi is an agency that blends design and technology to drive business growth.",
+    img: "/assets/p1.png",
     iconLists: [
       "/assets/re.svg",
       "/assets/tail.svg",
@@ -81,13 +81,13 @@ export const projects = [
       "/assets/three.svg",
       "/assets/fm.svg",
     ],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "https://www.foundasi.com/en",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/assets/p2.svg",
+    title: "Founda POS - Cashier App",
+    des: "A simple and efficient POS app for cashiers to manage sales, track inventory, and generate reports with ease.",
+    img: "/assets/p2.png",
     iconLists: [
       "/assets/next.svg",
       "/assets/tail.svg",
@@ -95,13 +95,13 @@ export const projects = [
       "/assets/stream.svg",
       "/assets/c.svg",
     ],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://pursida-cashier-ui.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/assets/p3.svg",
+    title: "Azhar Maksum - Accounting Services",
+    des: "Solutions for your financial planning accurately, transparently and accountably for all business entities in Indonesia.",
+    img: "/assets/p3.png",
     iconLists: [
       "/assets/re.svg",
       "/assets/tail.svg",
@@ -109,13 +109,13 @@ export const projects = [
       "/assets/three.svg",
       "/assets/c.svg",
     ],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://kja-azhar-maksum.vercel.app/en",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/assets/p4.svg",
+    title: "SBS cosmetics",
+    des: "PT. SBS started the business in 2013, by building a cosmetics factory oriented towards providing high standard cosmetic manufacturing services.",
+    img: "/assets/p4.png",
     iconLists: [
       "/assets/next.svg",
       "/assets/tail.svg",
@@ -123,7 +123,7 @@ export const projects = [
       "/assets/three.svg",
       "/assets/gsap.svg",
     ],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "https://sbs-cosmetics.com/en",
   },
 ];
 

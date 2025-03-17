@@ -8,10 +8,11 @@ import Image from "next/image";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-24" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent projects</span>
+        <br /> beyond my full-time work
       </h1>
       <div className="flex flex-wrap justify-center items-center gap-x-24 gap-y-8 mt-10 p-4">
         {projects.map(({ id, title, des, iconLists, img, link }) => (
@@ -31,10 +32,10 @@ const RecentProjects = () => {
                   className="bottom-0 z-10 absolute"
                 />
               </div>
-              <h1 className="line-clamp-l font-bold text-base text-white md:text-xl lg:text-2xl">
+              <h1 className="font-bold text-white text-base md:text-xl lg:text-2xl line-clamp-l">
                 {title}
               </h1>
-              <p className="line-clamp-2 font-light lg:font-normal text-sm lg:text-xl">
+              <p className="font-light lg:font-normal text-sm lg:text-xl line-clamp-2">
                 {des}
               </p>
               <div className="flex justify-between items-center mt-7 mb-3">
@@ -43,7 +44,7 @@ const RecentProjects = () => {
                     <div
                       key={icon}
                       style={{ transform: `translateX(-${5 * i * 2}px)` }}
-                      className="flex justify-center items-center border-white/[0.2] bg-black border rounded-full w-8 lg:w-10 h-8 lg:h-10"
+                      className="flex justify-center items-center bg-black border border-white/[0.2] rounded-full w-8 lg:w-10 h-8 lg:h-10"
                     >
                       <Image
                         layout="fill"
@@ -55,7 +56,7 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <div className="flex justify-center items-center">
-                  <p className="flex text-purple text-sm md:text-xs lg:text-xl">
+                  <p className="flex text-purple md:text-xs text-sm lg:text-xl">
                     Check Live Site
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
