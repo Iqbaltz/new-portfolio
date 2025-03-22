@@ -95,7 +95,7 @@ export const projects = [
       "/assets/stream.svg",
       "/assets/c.svg",
     ],
-    link: "https://pursida-cashier-ui.vercel.app/",
+    link: "https://founda-pos.vercel.app/",
   },
   {
     id: 3,
