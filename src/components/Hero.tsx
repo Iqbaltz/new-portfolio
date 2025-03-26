@@ -4,7 +4,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaDochub, FaFilePdf, FaLocationArrow } from "react-icons/fa6";
 
 type Props = {};
 
@@ -28,26 +28,26 @@ const Hero = (props: Props) => {
         <div className="absolute inset-0 flex justify-center items-center bg-white dark:bg-black-100 pointer-events-none [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
 
-      <div className="relative z-10 flex justify-center my-20">
+      <div className="z-10 relative flex justify-center my-20">
         <div className="flex flex-col justify-center items-center max-w-[89vw] md:max-w-[2xl] lg:max-w-[60vw]">
-          <h2 className="max-w-80 text-blue-100 text-center text-xs uppercase tracking-widest">
+          <h2 className="max-w-80 text-blue-100 text-xs text-center uppercase tracking-widest">
             Personal Web Portfolio
           </h2>
 
           <TextGenerateEffect
-            className="text-[40px] text-center md:text-5xl lg:text-6xl"
+            className="text-[40px] md:text-5xl lg:text-6xl text-center"
             words="Living, Learning, Leveling Up One Day At a Time"
           />
 
-          <p className="mb-4 text-center text-sm md:text-lg lg:text-2xl md:tracking-wider">
+          <p className="mb-4 text-sm md:text-lg lg:text-2xl text-center md:tracking-wider">
             Hi! I&apos;m Iqbal, a software engineer based in Indonesia.
           </p>
 
           <a href="#work">
             <MagicButton
-              title="Show My Work"
+              title="Download My CV"
               position="right"
-              icon={<FaLocationArrow />}
+              icon={<FaFilePdf />}
             />
           </a>
         </div>
