@@ -21,7 +21,7 @@ const RecentProjects = () => {
             className="flex justify-center items-center w-[80vw] sm:w-[524px] h-[32rem] sm:h-[41rem] lg:min-h-[32.5rem]"
           >
             <PinContainer title={link} href={link}>
-              <div className="relative flex justify-center items-center mb-10 w-[80vw] sm:w-[524px] h-[30vh] sm:h-[40vh] overflow-hidden">
+              <div className="relative flex justify-center items-center mb-10 w-[80vw] sm:w-[524px] h-[30vh] sm:h-[36vh] overflow-hidden">
                 <div className="relative bg-[#13162d] lg:rounded-3xl w-full h-full overflow-hidden">
                   <Image layout="fill" src="/assets/bg.png" alt="bg-img" />
                 </div>
@@ -29,7 +29,7 @@ const RecentProjects = () => {
                   layout="fill"
                   src={img}
                   alt={title}
-                  className="bottom-0 z-10 absolute"
+                  className="bottom-0 z-10 absolute object-cover"
                 />
               </div>
               <h1 className="font-bold text-white text-base md:text-xl lg:text-2xl line-clamp-l">
