@@ -9,7 +9,7 @@ const Readings = () => {
   return (
     <section className="py-20 w-full">
       <h1 className="heading">
-        My <span className="text-purple">Latest Books</span>
+        My <span className="text-purple">Latest Readings</span>
       </h1>
       <div className="flex lg:flex-row flex-col justify-center items-center gap-4 my-20">
         <Card
