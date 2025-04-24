@@ -195,20 +195,23 @@ export const workExperience = [
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/assets/superindo.png",
+    period: "November 2023 - Now",
   },
   {
     id: 2,
     title: "Front End Developer - STRT Button",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/assets/strt.png",
+    period: "April 2022 - July 2023",
   },
   {
     id: 3,
     title: "Front End Developer - Mejakreatif",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/assets/mejakreatif.png",
+    period: "March 2021 - February 2022",
   },
   {
     id: 4,
@@ -216,6 +219,7 @@ export const workExperience = [
     desc: "Led the dev of a web app for a client, from initial concept to deployment.",
     className: "md:col-span-2",
     thumbnail: "/assets/fiverr.png",
+    period: "March 2021 - February 2022",
   },
 ];
 

@@ -17,17 +17,20 @@ const Experience = () => {
             borderRadius="1.75rem"
             className="flex-1 border-neutral-200 dark:border-slate-800 text-white"
           >
-            <div className="flex lg:flex-row flex-col lg:items-center gap-2 py-6 p-3 md:p-5 lg:p-10">
+            <div className="flex lg:flex-row flex-col lg:items-center gap-2 p-3 md:p-5 lg:p-10 py-6">
               <img
                 src={card.thumbnail}
                 alt={card.thumbnail}
                 className="w-16 md:w-20 lg:w-32"
               />
               <div className="lg:ms-5">
-                <h1 className="font-bold text-start text-xl md:text-2xl">
+                <p className="opacity-50 mb-1 font-bold text-start">
+                  {card.period}
+                </p>
+                <h1 className="font-bold text-xl md:text-2xl text-start">
                   {card.title}
                 </h1>
-                <p className="mt-3 font-semibold text-start text-white-100">
+                <p className="mt-3 font-semibold text-white-100 text-start">
                   {card.desc}
                 </p>
               </div>
