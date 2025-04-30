@@ -43,7 +43,7 @@ const Hero = (props: Props) => {
             Hi! I&apos;m Iqbal, a software engineer based in Indonesia.
           </p>
 
-          <a href="/CV Muhammad Iqbal - Developer.pdf" download>
+          <a href="/CV Muhammad Iqbal - Software Engineer.pdf" download>
             <MagicButton
               title="Download My CV"
               position="right"
